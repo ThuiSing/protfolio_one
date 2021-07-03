@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Lato', sans-serif;
+}
+/* header section */
+.header{
+    background-image:url(./images/top-banner.png) ;
+    background-repeat: no-repeat;
+    padding: 2.5em;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top{
+    align-items: flex-start;
+}
+.left{
+    width: 50%;
+}
+.right{
+    width: 50%;
+}
+h1{
+    font-size: 3.3em;
+    margin:.6em 0em;
+}
+.middle_text{
+    color:  rgb(255 74 143);
+}
+.header_para{
+    margin: 1.2em 0em;
+}
+.btn{
+    background-color: rgb(255 74 143);
+    padding: .8em 1.2em;
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    border-radius: .4em;
+}
+/* dream section */
+.dream{
+    background-image:url(./images/dream-bg.png) ;
+    background-repeat: no-repeat;
+    background-position: right bottom ;
+    padding: 2.5em;
+}
+
+/* experiens section */
+.experiens{
+    padding: 2em 0em;
+    background-image: url(./images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.card {
+    width: 45%;
+    margin: 0% 5%;
+    padding: 1em;
+    box-shadow: -1px 6px 12px 0px #876371;
+    border-radius: .2em;
+    border: transparent;
+}
+.card_left {
+    border-left: 5px solid;
+    border-image: linear-gradient(rgb(249 120 96), rgb(201 40 204));
+    border-image-slice: 1;
+}
+.card_right{
+    border-left: 5px solid ;
+    border-image: linear-gradient(rgb(19, 15, 85), rgba(121,9,115,1) , rgba(0,212,255,1));
+    border-image-slice: 1;
+}
+
+/* footer section */
+.footer{
+    padding: 1.5em;
+}
